@@ -1,0 +1,9 @@
+- name: Discord Status
+  # You may pin to the exact commit or the version.
+  # uses: CompeyDev/discord-status-action@6ba1282e94bc457da012754bc54f8c168d5368cb
+  uses: CompeyDev/discord-status-action@0.3.2
+  with:
+    # File to write to
+    file: # default is README.md
+    # Discord ID of the user whose status you want to fetch.
+    id: 780330532550606868
